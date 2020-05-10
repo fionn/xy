@@ -1,6 +1,6 @@
-#include "angle.h"
-#include "latticeupdate.h"
-#include "metropolis.h"
+#include "angle.hpp"
+#include "latticeupdate.hpp"
+#include "metropolis.hpp"
 
 void latticeupdate(double beta, Angle theta, int n)
 {

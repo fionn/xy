@@ -1,10 +1,17 @@
-#include "angle.h"
+#include "angle.hpp"
 
 Angle::Angle(int m) 
 {
     n = m;
-    data = new double [n * n]; 
+    data = new double [n * n];
 }
+
+/*
+   Angle::~Angle()
+{
+    delete data;
+}
+*/
 
 double & Angle::operator() (int i, int j)
 {

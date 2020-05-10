@@ -1,6 +1,6 @@
 #include <cmath>
-#include "angle.h"
-#include "magnetisation.h"
+#include "angle.hpp"
+#include "magnetisation.hpp"
 
 double magnetisation(Angle theta, int n)
 {

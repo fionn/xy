@@ -1,6 +1,6 @@
 #include <cmath>
-#include "angle.h"
-#include "correlator.h"
+#include "angle.hpp"
+#include "correlator.hpp"
 
 double correlator(Angle theta, int n, int d)
 {

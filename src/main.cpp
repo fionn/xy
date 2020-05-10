@@ -1,15 +1,15 @@
 #include <iostream>
 #include <argp.h>
-#include "angle.h"
-#include "arguments.h"
-#include "parse.h"
-#include "hot_start.h"
-#include "metropolis.h"
-#include "latticeupdate.h"
-#include "magnetisation.h"
-#include "correlator.h"
-#include "correlation.h"
-#include "betamag.h"
+#include "angle.hpp"
+#include "arguments.hpp"
+#include "parse.hpp"
+#include "hot_start.hpp"
+#include "metropolis.hpp"
+#include "latticeupdate.hpp"
+#include "magnetisation.hpp"
+#include "correlator.hpp"
+#include "correlation.hpp"
+#include "betamag.hpp"
 
 /*
 double action(int n, Angle theta)

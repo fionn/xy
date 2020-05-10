@@ -1,7 +1,7 @@
 #include <cmath>
 #include <cstdlib>
-#include "angle.h"
-#include "metropolis.h"
+#include "angle.hpp"
+#include "metropolis.hpp"
 
 void metropolis(double beta, Angle theta, int i, int j)
 {

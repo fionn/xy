@@ -1,8 +1,8 @@
 #include <iostream>
-#include "angle.h"
-#include "betamag.h"
-#include "latticeupdate.h"
-#include "magnetisation.h"
+#include "angle.hpp"
+#include "betamag.hpp"
+#include "latticeupdate.hpp"
+#include "magnetisation.hpp"
 
 void betamag(int n, Angle theta, int T1, int T2)
 {

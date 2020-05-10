@@ -1,8 +1,8 @@
 #include <iostream>
-#include "angle.h"
-#include "correlation.h"
-#include "correlator.h"
-#include "latticeupdate.h"
+#include "angle.hpp"
+#include "correlation.hpp"
+#include "correlator.hpp"
+#include "latticeupdate.hpp"
 
 void correlation(int T1, Angle theta, int n, double beta)
 {

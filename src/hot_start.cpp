@@ -1,7 +1,7 @@
 #include <cmath>
 #include <cstdlib>
-#include "angle.h"
-#include "hot_start.h"
+#include "angle.hpp"
+#include "hot_start.hpp"
 
 void hot_start(int n, Angle theta)
 {
